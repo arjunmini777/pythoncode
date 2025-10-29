@@ -42,5 +42,5 @@ y = "computer"
 print(y[0:5])
 
 # 10. Create a variable and print all the letters from the first index until the end.
-z = "zebra"
+z = "crocodile"
 print(z[:])
