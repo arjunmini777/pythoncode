@@ -18,3 +18,13 @@ del colors_list[0]
 del sqrt_list[0]
 print(f"colors list after deleting the 1st item is => {colors_list}")
 print(f"sqrt list after deleting the 1st item is=> {sqrt_list}")
+
+# modify an element
+colors_list[0] = "yellow"
+sqrt_list[0] = 2
+print(f"colors list after modifying the 1st item is => {colors_list}")
+print(f"sqrt list after modifying the 1st item is=> {sqrt_list}")
+
+# slicing in a list
+print(f"slicing the colors_list => {colors_list[0:3]}")
+print(f"slicing the sqrt_list => {sqrt_list[1:3]}")
