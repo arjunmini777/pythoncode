@@ -9,7 +9,7 @@ print(f"sqrt list is {sqrt_list}")
 
 # add items to the list
 colors_list.append("purple")
-sqrt_list.append("64")
+sqrt_list.append(64)
 print(f"colors list after adding itmes is => {colors_list}")
 print(f"sqrt list after adding items is=> {sqrt_list}")
 
@@ -32,3 +32,11 @@ print(f"slicing the sqrt_list => {sqrt_list[1:3]}")
 # length of a list
 print(f"the length of color_list is => {len(colors_list)}")
 print(f"the length of sqrt_list is => {len(sqrt_list)}")
+
+# max value of a list
+print(f"The max color in colors_list is => {max(colors_list)}")
+print(f"The max number in sqrt_list is => {max(sqrt_list)}")
+
+# min value of a list
+print(f"the min value in colors_list is => {min(colors_list)}")
+print(f"the min value in sqrt_lits is => {min(sqrt_list)}")
