@@ -28,3 +28,7 @@ print(f"sqrt list after modifying the 1st item is=> {sqrt_list}")
 # slicing in a list
 print(f"slicing the colors_list => {colors_list[0:3]}")
 print(f"slicing the sqrt_list => {sqrt_list[1:3]}")
+
+# length of a list
+print(f"the length of color_list is => {len(colors_list)}")
+print(f"the length of sqrt_list is => {len(sqrt_list)}")
