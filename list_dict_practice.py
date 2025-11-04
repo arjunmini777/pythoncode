@@ -49,18 +49,16 @@ print(f"the min value in sqrt_lits is => {min(sqrt_list)}")
 
 #create a list
 students = {"James": 15, "Zach": 17, "Jamie": 21}
-print(students)
+print(f"original students dict is {students}")
 
 #access a list
 students["Zach"] = 18
-print(students)
+print(f"accesing a dict after changing an age {students}")
 
 #append to a list
 students["Arjun"] = 12
-print(students)
+print(f"appending a list by adding a student {students}")
 
 #del an element from the list
 del students["Jamie"]
-print(students)
-
-
+print(f"after del a student in the list {students}")
